@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cities of Pakistan</title>
+    <link rel="StyleSheet" href="MainPage.css">
+</head>
+<body>
+    <h1 id="head">Explore Cities of Pakistan</h1>
+    <hr>
+    <div id="parent">
+        <div id="displayImage">
+            <span id="Placeholder">
+                "Pakistan is home to some of the world’s
+                 most historic and rapidly evolving urban 
+                 centers. From the colonial charm and lush 
+                 greenery of Islamabad to the bustling coastal 
+                 energy of Karachi, each city tells a story of 
+                 resilience, culture, and transformation.
+                  Whether it is the artistic soul of Lahore or 
+                  the ancient gateways of Peshawar, the urban 
+                  landscape of Pakistan offers a unique blend of
+                   heritage and modern life. Select a city from 
+                   the sidebar to explore its iconic landmarks 
+                   and unique character."
+            </span>
+            <img id="mainImage">
+        </div>
+        <div id="imageCards">
+            <p>Explore Destinations</p>
+            <div class="cityCard"  id="Lahore" onclick="Lfucntion()">
+                <img src="Lahore.jpg.jpeg" class="cityImage" alt="Lahore">
+                <div class="text_wrap">
+                <span class="cityName">LAHORE</span>
+                <span class="hint" id="Lhint">Tap to View</span>
+                </div>
+            </div>
+            <div class="cityCard" id="Karachi" onclick="kfucntion()">
+                 <img src="Karachi.jpg.jpeg" class="cityImage" alt="Karachi">
+                <div class="text_wrap">
+                <span class="cityName">KARACHI</span>
+                <span class="hint" id="Khint">Tap to View</span>
+                </div>
+            </div>
+            <div class="cityCard" id="Islamabad" onclick="Ifucntion()"> 
+                <img src="Islamabad.jpg.jpeg" class="cityImage" alt="Islamabad">
+                <div class="text_wrap">
+                <span class="cityName">ISLAMABAD</span>
+                <span class="hint" id="Ihint">Tap to View</span>
+                </div></div>
+            <div class="cityCard" id="Quetta" onclick="Qfucntion()">
+                 <img src="Quetta.jpg" class="cityImage" alt="Quetta">
+                <div class="text_wrap">
+                <span class="cityName">QUETTA</span>
+                <span class="hint" id="Qhint">Tap to View</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="MainPage.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+body{
+    background-color: #121212;
+}
+#head{
+    text-align: center;
+    font-family:sans-serif;
+    color: #FFFF;
+}
+#parent{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+    gap: 10px;
+
+}
+#displayImage{
+    width: 70%;
+   padding: 20px;
+   background-color: #1e293b;
+   border-radius: 15px;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 10px 0 30px rgba(255,255,255,0.1);
+
+}
+#Placeholder{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #C0C0C0
+}
+#imageCards{
+    width: 30%;
+    padding:10px;
+    background-color: #1e293b;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: -10px 0 30px rgba(0,0,0,0.3);
+    border-left: 1px solid rgba(255,255,255,0.1);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+p{
+    color:white;
+    font-family: sans-serif;
+    font-size: large;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.cityCard{
+    flex: 1;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    flex-wrap: wrap;
+}
+.cityImage{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.text_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cityName{
+    font-weight: bold;
+    color: white;
+}
+.hint{
+    margin-top: 2px;
+    color: rgba(255,255,255,0.6);
+}
+.cityCard:hover{
+    border: 1.5px solid rgba(59,130,246,0.05);
+    box-shadow: 0 0 15px rgba(59,130,246,0.4);
+    transform: translateY(2px) scale(1.1);
+}
+#mainImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    display: none;
+}
+
