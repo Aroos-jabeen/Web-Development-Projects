@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="StyleSheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <div class="logo">My Portfolio</div>
+        <nav>
+        <a href="#main">Home</a>
+        <a href="#Education">Education</a>
+        <a href="#Projects">Resume</a>
+        <a href="#ContactMe">Contact</a>
+        </nav>
+    </header>
+<!-- Main Section -->
+    <section class="main" id="main">
+<!-- left side intro  -->
+        <div id="IntroDiv">
+            <div class="About">
+            <p><span id="intro">Hi,It's <span id="name">Aroosa</span></span><br>
+            <span id="introLine">I'.am a <span id="quality"></span></span></p>
+            </div>
+            <div class="About">
+              <p>I am a dedicated Computer Science student with a strong focus on Full-Stack
+                 Web Development and Software Engineering. </p>
+                 <button class="button">Hire</button>
+                 <button class="button">Contact</button>
+            </div>
+            
+        </div>
+<!-- right side picture -->
+        <div id="picture">
+            <img class="MyPic" src="mypic.jpeg" alt="MyPhoto">
+        </div>
+    </section>
+<!-- Educations Section -->
+ <section id="Education">
+<h3 id="heading">Education</h3>
+<div id="container">
+    <div class="card">
+        <p><span class="cardHead">High School - 2019</span>
+            <br><br>
+        <span>
+            I completed my high school in 2019 with outstanding 
+            academic performance, securing 952 marks out of 1100. 
+            This achievement reflects my dedication, consistency,
+             and strong grasp of core subjects, laying a solid foundation 
+             for my future studies. 
+        </span>
+        </p>
+    </div>
+    <div class="card">
+        <p><span class="cardHead"> Intermediate - 2022</span>
+            <br><br>
+            <span>
+                I completed my college in 2022 with outstanding 
+            academic performance, securing 889 marks out of 1100. 
+            This achievement reflects my dedication, consistency,
+             and strong grasp of core subjects, laying a solid foundation 
+             for my future studies. 
+            </span>
+        </p>
+    </div>
+    <div class="card">
+        <p> <span class="cardHead"> University - 2024</span>
+        <br><br>
+            <span>
+                I am Currently a student  in University in semester 4th 
+            in my  previous semesters I secured 3.59 GPA out of 4.00. 
+            This achievement reflects my dedication, consistency,
+             and strong grasp of core subjects, laying a solid foundation 
+             for my future studies. 
+            </span>
+        </p>
+    </div>
+</div>
+ </section>
+ <!-- contact me section -->
+  <section id="ContactMe">
+    <div id="ContactContainer">
+        <div id="PartOne">Contact Me</div>
+        <div id="PartTwo">
+            <img src="contact.jpeg" class="MyPic">
+        </div>
+    </div>
+    <div id="InPutForm">
+        <form id="form">
+            <div id="divOne">
+            <input class="input" type="text" placeholder="FullName">
+            <input class="input" type="email" placeholder="Email">
+            <input class="input" type="tel" placeholder="PoneNumber">
+            <input class="input" type="text" placeholder="Subject">
+            </div>
+            <div id="divTwo">
+            <textarea id="inputText" placeholder="Message"></textarea>
+            <button id="submitbutton" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+  </section>
+  <!-- Project Srction -->
+  <section id="Projects">
+    <h3 id="heading">Projects</h3>
+    <div id="Project">
+    <div class="project-card">
+      <div class="faceCard">
+        <h3>C++ Project</h3>
+        <p>Inventory Management System</p>
+      </div>
+  
+      <div class="cardInfo">
+        <p>
+          Simple inventory manager with add, update, delete, and file storage.
+          Built to practice core C++ concepts like functions and file handling.
+        </p>
+      </div>
+    </div>
+    <div class="project-card">
+        <div class="faceCard">
+            <h3>OOP Project</h3>
+            <p>University Management System</p>
+          </div>
+      
+          <div class="cardInfo">
+            <p>
+              Simple University Management System ,using features of OOP
+              Classes ,Objects,Inheritance and abstraction etc.
+              Cover all basic relationships of oop in C++.
+            </p>
+          </div>
+    </div>
+    <div class="project-card">
+        <div class="faceCard">
+          <h3>Python Project</h3>
+          <p>Snake,Water,Gun Game</p>
+        </div>
+        <div class="cardInfo">
+          <p>
+            This is very simple game,user play against computer.
+            This game use the library of random number to choose random number 
+            every time,basically this game cover the basic of python.
+          </p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="faceCard">
+          <h3>DSA Project</h3>
+          <p>University Path Finder</p>
+        </div>
+        <div class="cardInfo">
+          <p>
+            This Project use the Graph data structure ,and store all Path
+            of university ,user can use it to find minimum path between two different
+            places.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer section -->
+<footer>
+    <div id="footerContainer">
+        <div id="footerPartOne">
+            <h3>About Me</h3>
+            <p>I am a dedicated Computer Science student with a strong focus on Full-Stack
+                Web Development and Software Engineering. </p>
+        </div>
+        <div id="footerPartTwo">
+            <h3>Contact Me</h3>
+            <p>Email: aroosa@gmail.com</p>
+            <p>Phone: 031-1234567</p>
+            <p>Address: xyz Main St, Town, Kharian, Pakistan</p>
+        </div>
+        <div id="footerPartThree">
+            @copyright 2026 Aroosa. All rights reserved.
+        </div>
+    </div>
+    </footer>
+
+<!-- JavaScript -->
+ <script src="portfolio.js"></script>
+
+</body>
+</html>
