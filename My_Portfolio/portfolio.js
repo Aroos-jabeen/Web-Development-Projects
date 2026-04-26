@@ -1,4 +1,4 @@
- let text=document.getElementById('quality');
+let text=document.getElementById('quality');
 let titles=["Web Developer","Ux Desinger","Frontend Developer","Problem Solver"];
 let titleIndex=0;
 let charIndex=0;
